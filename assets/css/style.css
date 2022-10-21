@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: #181818;
+  }
+  
+  header {
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  li {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  li a {
+    color: whitesmoke;
+    padding: 5px;
+  }
+  
+  main {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  h1 {
+    background-color: rgba(90, 149, 119, 0.566);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  h2 {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hero {
+    background-color: #181818;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23e01852' fill-opacity='0.46'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    height: 200px;
+  }
+  
+  .hero p {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 28px;
+    color: #01ED67;
+  }
+  
+  .vl-1 {
+      border-left: 6px solid #000;
+      height: 200px;
+      margin-top: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 2rem;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: left;
+    font-size: 1rem;
+    margin-top: 50px;
+  }
+  
+  img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: -10px 14px 5px 3px rgba(90, 149, 119, 0.566);
+    border-radius: 25px;
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+  }
+  
+  .about-me {
+    font-size: 1rem;
+    display: flex;
+    justify-content: left;
+    margin-left: 90px;
+  }
+  
+  .about-me h2 {
+    padding: 0 35px;
+    margin-top: 40px;
+  }
+  
+  .about-me p {
+    font-size: 36px
+  }
+  
+  .projects h2 {
+    padding: 0 90px;
+  }
+  
+  p {
+    padding: 25px;
+    color: whitesmoke;
+  }
+  
+  .row {
+    display: inline;
+    flex: wrap;
+  }
+  
+  .vl-2 {
+      border-left: 6px solid #000;
+      height: 999px;
+      margin-top: 20px;
+      padding: 10px; 
+  }
+  
+  .contact-me {
+    display: flex;
+    justify-content: left;
+    font-size: 2rem;
+  }
+  
+  footer {
+    color: rgb(0, 0, 0);
+    display: flex;
+  }
+  
+  footer h2 {
+    margin-left: 25px;
+  }
+  
+  .footer {
+    display: flex;
+  }
+  
+  .footer a {
+    color: whitesmoke;
+    padding: 50px;
+    margin: 5px 5px;
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 992px) {
+    img {
+      height: 250px;
+      width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    img {
+      height: 250px;
+      width: 250px;
+    }
+  }
