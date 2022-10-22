@@ -1,3 +1,7 @@
+:root {
+  --background-color: #181818;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +10,14 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #181818;
+  background-color: var(--background-color);
 }
 
 body {
   scroll-behavior: smooth;
-  background-color: #181818;
+  background-color: var(--background-color);
 }
+
 header {
   display: flex;
   flex-direction: row;
@@ -20,22 +25,30 @@ header {
   align-content: flex-start;
   justify-content: space-between;
   align-items: center;
-  background-color: #181818;
+  background-color: var(--background-color);
   padding: 10px;
 }
+
 li a {
+  display: flex;
   color: whitesmoke;
 }
+
 h1 {
+  display: flex;
   font-size: 2rem;
   background-color: rgba(90, 149, 119, 0.566);
   color: whitesmoke;
   border-radius: 10px;
 }
+
 h2 {
+  display: flex;
+  flex-wrap: wrap;
   color: white;
   width: 13%;
 }
+
 .hero {
   background-color: #181818;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23e01852' fill-opacity='0.46'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -43,18 +56,21 @@ h2 {
 }
 
 .hero-img {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 105px;
   border-radius: 50%;
+  margin: 20px;
 }
 
 .hero p {
-  text-align: right;
+  float: right;
   font-size: 28px;
   color: #01ed67;
 }
+
 .vl-1 {
   display: flex;
+  flex-wrap: wrap;
   align-items: stretch;
   margin: 0 auto;
   width: 100%;
@@ -63,26 +79,35 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
+
 header nav {
   font-size: 1.5rem;
   display: flex;
   flex-wrap: wrap;
 }
+
 header nav ul {
   display: flex;
   flex-wrap: wrap;
 }
+
 header nav ul li {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0 1rem;
 }
+
 div .project-container {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .projects {
+  display: flex;
+  flex-wrap: wrap;
   border-right: 6px solid #000;
   font-size: 1rem;
 }
@@ -96,12 +121,14 @@ div .project-container {
   padding: 10px;
   box-shadow: -10px 14px 5px 3px rgba(90, 149, 119, 0.566);
   border-radius: 25px;
-  height: 500px;
-  width: 1000px;
+  height: auto;
+  width: 800px;
   margin: 100px;
 }
 
 .main-project-img {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: 100%;
   border-radius: 25px;
@@ -110,6 +137,7 @@ div .project-container {
 
 .project-image {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   border: 1px solid;
@@ -123,6 +151,7 @@ div .project-container {
 
 .links-container {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
 }
@@ -136,74 +165,84 @@ div .project-container {
 .about-me {
   font-size: 1rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: left;
   margin-left: 90px;
-  border: 1px red solid;
+  padding: 10px;
 }
+
 .about-me h2 {
+  display: flex;
+  flex-wrap: wrap;
   width: 13%;
   border-right: 1px solid white;
 }
+
 .about-me p {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 36px;
 }
+
 .projects h2 {
+  display: flex;
+  flex-wrap: wrap;
   width: 13%;
 }
 
 #projects-header {
+  display: flex;
+  flex-wrap: wrap;
   width: 20%;
   border-right: 1px solid white;
 }
 
 .projects-container {
-  border: 1px red solid;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-left: 90px;
 }
 
 p {
+  display: flex;
+  flex-wrap: wrap;
   padding: 25px;
   color: whitesmoke;
 }
-.row {
-  display: inline;
-  flex: wrap;
-}
-/* section a{
-    width: 20%;
-    padding: 0 35px;
-    margin-top: 40px;
-    height: 100%;
-  } */
+
 footer {
   color: rgb(0, 0, 0);
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
+
 footer h2 {
   display: flex;
   flex-wrap: wrap;
   margin-left: 25px;
 }
+
 section nav {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin-left: 25px;
 }
+
 section nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
+
 section nav ul li {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
+
 section nav ul li a {
   list-style: none;
   display: flex;
@@ -213,15 +252,16 @@ section nav ul li a {
   margin: 5px 5px;
   font-size: 1.5rem;
 }
+
 @media screen and (max-width: 992px) {
-  img {
-    height: 250px;
-    width: 250px;
+  .main-project-img {
+    width: 100px;
+    height: 100px;
   }
 }
+
 @media screen and (max-width: 768px) {
-  img {
-    height: 250px;
-    width: 250px;
+  body {
+    font-size: 1.2rem;
   }
 }
