@@ -87,6 +87,7 @@ h2 {
   color: #01ed67;
 }
 
+/* vertical line */
 .vl-1 {
   display: flex;
   flex-wrap: wrap;
@@ -113,6 +114,7 @@ div .project-container {
   font-size: 1rem;
 }
 
+/* Class for Big Image */
 .main-project {
   display: flex;
   flex-direction: column;
@@ -127,6 +129,7 @@ div .project-container {
   margin: 100px;
 }
 
+/* Big Picture */
 .main-project-img {
   display: flex;
   /* flex-wrap: nowrap; */
@@ -136,6 +139,7 @@ div .project-container {
   /* object-fit: cover; */
 }
 
+/* Four Smaller Pictures */
 .project-image {
   display: flex;
   flex-wrap: wrap;
