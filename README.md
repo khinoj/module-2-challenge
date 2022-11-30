@@ -1,16 +1,28 @@
 # Kris Hinojosa: Portfolio
 
+## Description
+
 My first attempt at advance css to make a portfolio website. Lots to learn still in terms of flexbox and how to get the page to move properly.
 
 ## url
 
-https://github.com/khinoj/module-2-challenge
+[Link to deployed site](https://github.com/khinoj/module-2-challenge)
+
+## Screenshot
+
+![screenshot](./assets/images/screenshot.png)
 
 https://khinoj.github.io/module-2-challenge/
 
 ## License
 
 MIT License
+
+## Features
+
+* Flexbox
+* HTML
+* css
 
 ## Acceptance Criteria
 
